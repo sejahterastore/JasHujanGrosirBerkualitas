@@ -33,7 +33,7 @@ $(document).on('click', '.send', function() {
             '*Pembayaran* : ' + input_pembayaran + '%0A' +
             '*Ukuran* : ' + input_ukuran + '%0A' +
             '*Alamat Lengkap* : ' + input_description + '%0A' +
-            '*Total Pembayaran* : *114 ribu/pcs* + bonus cover sepatu waterproof ';  // Semicolon was added here
+            '*Total Pembayaran* : *114 ribu/pcs* ';  // Semicolon was added here
 
         /* Whatsapp Window Open */
         window.open(checkout_whatsapp, '_blank');
